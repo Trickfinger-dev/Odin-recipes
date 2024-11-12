@@ -1,32 +1,18 @@
-.header{
-    text-align: center;
-    font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    color: rgb(50, 114, 10);
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.unorder{
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.deschead{
-    font-size: 25px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
+.card {
+    border: solid;
+    border-width: 11px;
 
-.unorder.size{
-    font-size: 15px;
 }
-
-.unorder.text{
-    font-size: 12px;
-    font-style: italic;
-}
-
-.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-  }
